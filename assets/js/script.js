@@ -1,4 +1,4 @@
-import { games } from "./games.json";
+import * as gameData from './games.json';
 
 function initBoard() {
     let board = document.getElementById("game-board");
